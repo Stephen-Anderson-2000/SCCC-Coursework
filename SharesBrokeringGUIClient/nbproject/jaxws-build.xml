@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-SharesBrokerWS" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/SharesBrokerWS"/>
+        <property name="wsdl-SharesBrokerWS" location="xml-resources/web-service-references/SharesBrokerWS/wsdl/localhost_8080/SharesBrokerWS/SharesBrokerWS.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/SharesBrokerWS" destdir="${build.generated.dir}/jax-wsCache/SharesBrokerWS" wsdl="${wsdl-SharesBrokerWS}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/SharesBrokerWS/SharesBrokerWS?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-SharesBrokerWS}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/SharesBrokerWS"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/SharesBrokerWS">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-SharesBrokerWS" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/SharesBrokerWS"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/org/me/sharesbroker"/>
+    </target>
+    <target name="wsimport-client-MyCurrencyConversionWS" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/MyCurrencyConversionWS"/>
+        <property name="wsdl-MyCurrencyConversionWS" location="xml-resources/web-service-references/MyCurrencyConversionWS/wsdl/localhost_8080/MyCurrencyConversionWS/MyCurrencyConversionWS.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/MyCurrencyConversionWS" destdir="${build.generated.dir}/jax-wsCache/MyCurrencyConversionWS" wsdl="${wsdl-MyCurrencyConversionWS}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/MyCurrencyConversionWS/MyCurrencyConversionWS?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-MyCurrencyConversionWS}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/MyCurrencyConversionWS"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/MyCurrencyConversionWS">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-MyCurrencyConversionWS" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/MyCurrencyConversionWS"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/mycurrencyconverter"/>
+    </target>
+    <target name="wsimport-client-UpdateStockPricesWS" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/UpdateStockPricesWS"/>
+        <property name="wsdl-UpdateStockPricesWS" location="xml-resources/web-service-references/UpdateStockPricesWS/wsdl/localhost_8080/UpdateStockPricesWS/UpdateStockPricesWS.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/UpdateStockPricesWS" destdir="${build.generated.dir}/jax-wsCache/UpdateStockPricesWS" wsdl="${wsdl-UpdateStockPricesWS}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/UpdateStockPricesWS/UpdateStockPricesWS?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-UpdateStockPricesWS}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/UpdateStockPricesWS"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/UpdateStockPricesWS">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-UpdateStockPricesWS" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/UpdateStockPricesWS"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/stockpricews"/>
+    </target>
+    <target name="wsimport-client-WikipediaSummaryWS" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WikipediaSummaryWS"/>
+        <property name="wsdl-WikipediaSummaryWS" location="xml-resources/web-service-references/WikipediaSummaryWS/wsdl/localhost_8080/WikipediaSummaryWS/WikipediaSummaryWS.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WikipediaSummaryWS" destdir="${build.generated.dir}/jax-wsCache/WikipediaSummaryWS" wsdl="${wsdl-WikipediaSummaryWS}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/WikipediaSummaryWS/WikipediaSummaryWS?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-WikipediaSummaryWS}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WikipediaSummaryWS"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WikipediaSummaryWS">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WikipediaSummaryWS" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/WikipediaSummaryWS"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/wikipediasummary"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-SharesBrokerWS, wsimport-client-MyCurrencyConversionWS, wsimport-client-UpdateStockPricesWS, wsimport-client-WikipediaSummaryWS"/>
+</project>

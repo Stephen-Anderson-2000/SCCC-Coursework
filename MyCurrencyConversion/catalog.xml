@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/home/steppy/Documents/SCC/Coursework/MyCurrencyConversion/src/java/mycurrencyconverter/Conversions.xsd" uri="src/conf/xml-resources/jaxb/ConversionBinding/Conversions.xsd"/>
+    <system systemId="http://localhost:8080/TahaCurrencyConvertor/CurrencyConversionWSService?wsdl" uri="src/conf/xml-resources/web-service-references/CurrencyConversionWSService/wsdl/localhost_8080/TahaCurrencyConvertor/CurrencyConversionWSService.wsdl"/>
+    <system systemId="http://localhost:8080/TahaCurrencyConvertor/CurrencyConversionWSService?xsd=1" uri="src/conf/xml-resources/web-service-references/CurrencyConversionWSService/wsdl/localhost_8080/TahaCurrencyConvertor/CurrencyConversionWSService.xsd_1.xsd"/>
+</catalog>

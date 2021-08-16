@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/CurrencyConvertor/CurrencyConversionWSService?wsdl" uri="xml-resources/web-service-references/CurrencyConversionWSService/wsdl/localhost_8080/CurrencyConvertor/CurrencyConversionWSService.wsdl"/>
+    <system systemId="http://localhost:8080/CurrencyConvertor/CurrencyConversionWSService?xsd=1" uri="xml-resources/web-service-references/CurrencyConversionWSService/wsdl/localhost_8080/CurrencyConvertor/CurrencyConversionWSService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/SharesBrokerWS/SharesBrokerWS?wsdl" uri="wsdl/localhost_8080/SharesBrokerWS/SharesBrokerWS.wsdl"/>
+    <system systemId="http://localhost:8080/SharesBrokerWS/SharesBrokerWS?xsd=1" uri="wsdl/localhost_8080/SharesBrokerWS/SharesBrokerWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/SharesBrokerWS/SharesBrokerWS?xsd=2" uri="wsdl/localhost_8080/SharesBrokerWS/SharesBrokerWS.xsd_2.xsd"/>
+    <system systemId="http://localhost:8080/MyCurrencyConversionWS/MyCurrencyConversionWS?wsdl" uri="wsdl/localhost_8080/MyCurrencyConversionWS/MyCurrencyConversionWS.wsdl"/>
+    <system systemId="http://localhost:8080/MyCurrencyConversionWS/MyCurrencyConversionWS?xsd=1" uri="wsdl/localhost_8080/MyCurrencyConversionWS/MyCurrencyConversionWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/UpdateStockPricesWS/UpdateStockPricesWS?wsdl" uri="wsdl/localhost_8080/UpdateStockPricesWS/UpdateStockPricesWS.wsdl"/>
+    <system systemId="http://localhost:8080/UpdateStockPricesWS/UpdateStockPricesWS?xsd=1" uri="wsdl/localhost_8080/UpdateStockPricesWS/UpdateStockPricesWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/WikipediaSummaryWS/WikipediaSummaryWS?wsdl" uri="wsdl/localhost_8080/WikipediaSummaryWS/WikipediaSummaryWS.wsdl"/>
+    <system systemId="http://localhost:8080/WikipediaSummaryWS/WikipediaSummaryWS?xsd=1" uri="wsdl/localhost_8080/WikipediaSummaryWS/WikipediaSummaryWS.xsd_1.xsd"/>
+</catalog>

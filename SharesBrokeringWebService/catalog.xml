@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/home/steppy/Documents/Year-3/SCC/Coursework/SharesBrokeringWebService/../Shares.xsd" uri="src/conf/xml-resources/jaxb/SharesBinding/Shares.xsd"/>
+    <system systemId="file:/home/steppy/Documents/Year-3/SCC/Coursework/SharesBrokeringWebService/src/java/org/me/sharesbroker/Shares.xsd" uri="src/conf/xml-resources/jaxb/SharesBinding/Shares.xsd"/>
+    <system systemId="file:/home/steppy/Documents/SCC/Coursework/SharesBrokeringWebService/src/java/org/me/sharesbroker/Shares.xsd" uri="src/conf/xml-resources/jaxb/SharesBinding/Shares.xsd"/>
+</catalog>

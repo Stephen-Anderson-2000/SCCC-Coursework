@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RatesObject xmlns="http://xml.netbeans.org/schema/currencyconversions">
+    <Rates>
+        <Conversion>USD_GBP</Conversion>
+        <Rate>0.728863</Rate>
+    </Rates>
+    <Rates>
+        <Conversion>USD_EUR</Conversion>
+        <Rate>0.829941</Rate>
+    </Rates>
+    <Rates>
+        <Conversion>GBP_USD</Conversion>
+        <Rate>1.372863</Rate>
+    </Rates>
+    <Rates>
+        <Conversion>GBP_EUR</Conversion>
+        <Rate>1.140048</Rate>
+    </Rates>
+    <Rates>
+        <Conversion>EUR_GBP</Conversion>
+        <Rate>0.877507</Rate>
+    </Rates>
+    <Rates>
+        <Conversion>EUR_USD</Conversion>
+        <Rate>1.204696</Rate>
+    </Rates>
+</RatesObject>
