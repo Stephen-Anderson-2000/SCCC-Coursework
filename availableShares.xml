@@ -7,8 +7,8 @@
         <WikipediaName>Apple_Inc.</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>136.61</Value>
-            <LastUpdated>2021-02-07T16:54:25.285Z</LastUpdated>
+            <Value>147.21</Value>
+            <LastUpdated>2021-08-16T15:50:02.287+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -18,8 +18,8 @@
         <WikipediaName>IBM</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>121.23</Value>
-            <LastUpdated>2021-02-07T16:54:25.294Z</LastUpdated>
+            <Value>143.09</Value>
+            <LastUpdated>2021-08-16T15:50:02.315+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -29,8 +29,8 @@
         <WikipediaName>Amazon_(company)</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>3327.67</Value>
-            <LastUpdated>2021-02-07T16:54:25.301Z</LastUpdated>
+            <Value>3226.075</Value>
+            <LastUpdated>2021-08-16T15:50:02.344+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -40,8 +40,8 @@
         <WikipediaName>Microsoft</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>241.0201</Value>
-            <LastUpdated>2021-02-07T16:54:25.308Z</LastUpdated>
+            <Value>290.7568</Value>
+            <LastUpdated>2021-08-16T15:50:02.373+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -51,8 +51,8 @@
         <WikipediaName>Tesla,_Inc.</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>861.6206</Value>
-            <LastUpdated>2021-02-07T16:54:25.315Z</LastUpdated>
+            <Value>685.4199</Value>
+            <LastUpdated>2021-08-16T15:50:02.411+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -62,8 +62,8 @@
         <WikipediaName>Qualcomm</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>145.23</Value>
-            <LastUpdated>2021-02-07T16:54:25.322Z</LastUpdated>
+            <Value>147.08</Value>
+            <LastUpdated>2021-08-16T15:50:02.439+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -73,8 +73,8 @@
         <WikipediaName>PayPal</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>266.6</Value>
-            <LastUpdated>2021-02-07T16:54:25.329Z</LastUpdated>
+            <Value>275.61</Value>
+            <LastUpdated>2021-08-16T15:50:02.461+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -84,8 +84,8 @@
         <WikipediaName>GameStop</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>64.97</Value>
-            <LastUpdated>2021-02-07T16:54:25.336Z</LastUpdated>
+            <Value>169.849</Value>
+            <LastUpdated>2021-08-16T15:50:02.481+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -95,8 +95,8 @@
         <WikipediaName>Berkshire_Hathaway</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>355299.88</Value>
-            <LastUpdated>2021-02-07T16:54:25.343Z</LastUpdated>
+            <Value>434427.44</Value>
+            <LastUpdated>2021-08-16T15:50:02.509+01:00</LastUpdated>
         </SharePrice>
     </Shares>
     <Shares>
@@ -106,8 +106,8 @@
         <WikipediaName>Suzuki</WikipediaName>
         <SharePrice>
             <Currency>USD</Currency>
-            <Value>48.71</Value>
-            <LastUpdated>2021-02-07T16:54:25.350Z</LastUpdated>
+            <Value>40.804</Value>
+            <LastUpdated>2021-08-16T15:50:02.529+01:00</LastUpdated>
         </SharePrice>
     </Shares>
 </SharesList>

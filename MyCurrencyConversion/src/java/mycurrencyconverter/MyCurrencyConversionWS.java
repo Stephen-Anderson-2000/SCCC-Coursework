@@ -140,7 +140,7 @@ public class MyCurrencyConversionWS {
         // Initialises variable to prevent context issues
         String apiKey = null;
         try {
-            apiKey = Files.readAllLines(Paths.get("/home/steppy/Documents/SCC/Coursework/CurrencyConverterAPI-Key.txt")).get(0);
+            apiKey = Files.readAllLines(Paths.get("/home/steppy/Documents/SCCC-Coursework/CurrencyConverterAPI-Key.txt")).get(0);
         } catch (IOException e) {
             System.out.println("File not found");
         }
@@ -156,7 +156,7 @@ public class MyCurrencyConversionWS {
     
     private synchronized List<ConversionRate> Load_Rates_From_XML() {
         // Specifies the file name and creates a new object to unmarshal into
-        String fileName = "/home/steppy/Documents/SCC/Coursework/Conversion-Rates.xml";
+        String fileName = "/home/steppy/Documents/SCCC-Coursework/Conversion-Rates.xml";
         RatesObject ratesList = new RatesObject();
         
         try {
@@ -173,7 +173,7 @@ public class MyCurrencyConversionWS {
     
     private synchronized void Save_Rates_To_XML(RatesObject ratesList) {
         // Specifies the file name and marshals the conversion rates
-        String fileName = "/home/steppy/Documents/SCC/Coursework/Conversion-Rates.xml";
+        String fileName = "/home/steppy/Documents/SCCC-Coursework/Conversion-Rates.xml";
         
         try {            
             javax.xml.bind.JAXBContext jaxbCtx = javax.xml.bind.JAXBContext.newInstance(ratesList.getClass().getPackage().getName());

@@ -26,7 +26,7 @@ import SharesPackage.SharesList;
 @WebService(serviceName = "SharesBrokerWS")
 @Stateless()
 public class SharesBrokerWS {
-    static final String sharesFile = "/home/steppy/Documents/SCC/Coursework/availableShares.xml";
+    static final String sharesFile = "/home/steppy/Documents/SCCC-Coursework/availableShares.xml";
 
 /**
      * Web service operation

@@ -139,7 +139,7 @@ public class UpdateStockPricesWS {
     private String Load_API_Key() {
         String apiKey = null;
         try {
-            apiKey = Files.readAllLines(Paths.get("/home/steppy/Documents/SCC/Coursework/X-RapidAPI-Key.txt")).get(0);
+            apiKey = Files.readAllLines(Paths.get("/home/steppy/Documents/SCCC-Coursework/X-RapidAPI-Key.txt")).get(0);
         } catch (IOException ex) {
             System.out.println("File not found");
         }
@@ -149,6 +149,7 @@ public class UpdateStockPricesWS {
     /*
     private String Load_Saved_Data() {
         // An exact copy of Load_API_Key to get the already requested and saved shares data
+        // Used for testing the services without using up the API request quota
         String loadedData = null;
         try {
             loadedData = Files.readAllLines(Paths.get("/home/steppy/Documents/SCC/Coursework/API-Response.txt")).get(0);

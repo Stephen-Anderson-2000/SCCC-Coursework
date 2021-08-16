@@ -8,3 +8,10 @@ The existing repository was only ever intended to be kept private and so had the
 To use this project the keys will need to be supplied and saved as such:
     CurrencyConverterAPI-Key.txt              (Requesting from "https://free.currconv.com/api/v7")
     X-RapidAPI-Key.txt                        (Requesting from "https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/v2")
+    
+
+Due to my inability to understand how Java builds when dealing with relative paths, there are currently some hardcoded filepaths.
+They can be found in the following files:
+	MyCurrencyConversion/src/java/mycurrencyconverter/MyCurrencyConversionWS.java
+	SharesBrokeringWebService/src/java/org/me/sharesbroker/SharesBrokerWS.java
+	UpdateStocks/src/java/StockPriceWS/UpdateStockPricesWS.java
